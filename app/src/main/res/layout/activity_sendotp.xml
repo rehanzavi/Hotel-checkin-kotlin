@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/otp1"
+        android:layout_above="@id/txtMobile"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtMobile"
+        android:layout_above="@+id/etMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OTP Verification"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        android:textSize="24sp"
+        android:textColor="#0064ff"/>
+    <EditText
+        android:maxLength="10"
+        android:layout_marginTop="20dp"
+        android:id="@+id/etMobile"
+        android:paddingTop="200dp"
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter 10 Digit Mobile Number"
+        android:padding="10dp"
+        android:inputType="phone"/>
+
+
+
+
+    <Button
+        android:layout_below="@id/etMobile"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:id="@+id/btnGetOTP"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="Get OTP"
+        android:textStyle="bold"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+</RelativeLayout>

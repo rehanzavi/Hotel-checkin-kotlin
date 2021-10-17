@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/checkin"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/head"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/head"
+        android:textSize="20sp"
+        android:textColor="#002abb"
+        android:text="Your Room No is "
+        android:layout_centerVertical="true"
+        android:padding="8dp"
+        android:layout_marginStart="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/room"
+        android:layout_toRightOf="@id/head"
+        android:textColor="@color/black"
+        android:layout_centerVertical="true"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/thanky"
+        android:textStyle="italic"
+        android:layout_below="@id/head"
+        android:text="Thank You for Choosing Hotel Check_In"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMore"
+        android:layout_below="@id/thanky"
+        android:layout_centerHorizontal="true"
+        android:text="Check_In More"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOG OUT"
+        android:textColor="#646464"
+        android:textStyle="bold"
+        android:id="@+id/exit"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#ffb8b8"/>
+
+
+
+</RelativeLayout>

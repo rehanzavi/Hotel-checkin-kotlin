@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "42054451605",
+    "project_id": "verify-otp-201da",
+    "storage_bucket": "verify-otp-201da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42054451605:android:5bd84961803e5cab03b69c",
+        "android_client_info": {
+          "package_name": "com.example.hotelcheckin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42054451605-vsigu5c9rav8m2oh2klqjhn2kvk29k0g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hotelcheckin",
+            "certificate_hash": "96a602473197c8c4a39c7b4fb5a8762be45a8abc"
+          }
+        },
+        {
+          "client_id": "42054451605-751n8p1vt4b9uitd5lk4ejiihdnsu2dl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMTyTtteabuVSVIK8ptU95HAtgq3d6_kk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42054451605-751n8p1vt4b9uitd5lk4ejiihdnsu2dl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

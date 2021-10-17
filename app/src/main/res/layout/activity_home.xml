@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/txtHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Your Preference"
+                android:padding="3dp"
+                android:textSize="20sp"
+                android:layout_alignParentTop="true"
+                android:textColor="#003e8d"
+                android:textStyle="bold"/>
+
+
+    <ImageView
+
+        android:id="@+id/imgg1"
+        android:layout_marginTop="2dp"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:src="@drawable/groupo"
+        android:layout_below="@id/txtHeader"/>
+
+    <ImageView
+        android:id="@+id/imgg2"
+        android:paddingTop="2dp"
+        android:layout_below="@id/imgg1"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:src="@drawable/groupt" />
+
+    <ImageView
+        android:id="@+id/imgg3"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_below="@id/imgg2"
+        android:paddingTop="2dp"
+        android:src="@drawable/groupth" />
+</RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>
